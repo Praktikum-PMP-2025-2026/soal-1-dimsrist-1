@@ -34,7 +34,7 @@ int compareArtefak(const void *a, const void *b) {
     }
 
     // Jika sama, nama alfabetis naik
-    return strcmp(artA->nama, artB->nama);
+    return strcmp(artA->nama, artB->nama); // String dibandingkan
 }
 
 int main(void) {
